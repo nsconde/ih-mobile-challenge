@@ -42,3 +42,6 @@ npm run ios
 ```bash
 npm run client:codegen
 ```
+#### UI Component Library
+
+This project has pre-installed the [React Native Elements](https://reactnativeelements.com/docs) library for convenience. It is not required to use this component library.
