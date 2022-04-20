@@ -13,7 +13,7 @@ Using [Star Wars GraphQL API](https://graphql.org/swapi-graphql), create an _inf
 
 ## Getting Started
 
-### Fork and Clone git repo
+### Use Template and Clone git repo
 
 ```bash
 git clone git@github.com:{GH_USERNAME}/ih-mobile-challenge.git
