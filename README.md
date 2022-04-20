@@ -9,7 +9,7 @@ Using [Star Wars GraphQL API](https://graphql.org/swapi-graphql), create an _inf
 - Search
 - Rate Star Wars Characters
 - Vehicle E-Commerce
-- Plant Tourism Brochure
+- Planet Tourism Brochure
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ This app follows the standard setup fo [react-native applications](https://react
 npm run android
 ```
 
-#### RuniOS
+#### Run iOS
 
 ```bash
 npm run ios
@@ -37,7 +37,7 @@ npm run ios
 
 #### GraphQL
 
-[GraphQL](https://graphql.org/learn/) generated types use [GraphQL Code Generator](https://www.graphql-code-generator.com/docs/getting-started)
+[GraphQL](https://graphql.org/learn/) generated types are located under `src/__generated__/graphql.tsx`. Uses [GraphQL Code Generator](https://www.graphql-code-generator.com/docs/getting-started) to generate the types. 
 
 ```bash
 npm run client:codegen
