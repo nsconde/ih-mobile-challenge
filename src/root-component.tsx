@@ -18,7 +18,7 @@ import {
   TouchableHighlight,
   FlatList,
 } from 'react-native';
-import {Header, ListItem} from '@react-native-elements/themed';
+import {Header, ListItem} from '@rneui/themed';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {useQuery, gql} from '@apollo/client';
 

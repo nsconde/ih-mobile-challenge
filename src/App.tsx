@@ -10,7 +10,7 @@
 
 import React from 'react';
 import RootComponent from './root-component';
-import {ThemeProvider} from '@react-native-elements/themed';
+import {ThemeProvider} from '@rneui/themed';
 import {ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
