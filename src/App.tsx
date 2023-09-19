@@ -13,6 +13,7 @@ import RootComponent from './root-component';
 import {ThemeProvider} from '@rneui/themed';
 import {ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {NavigationContainer} from '@react-navigation/native';
 
 const client = new ApolloClient({
   uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
@@ -22,9 +23,11 @@ const client = new ApolloClient({
 const App = () => (
   <SafeAreaProvider>
     <ThemeProvider>
-      <ApolloProvider client={client}>
-        <RootComponent />
-      </ApolloProvider>
+      <NavigationContainer>
+        <ApolloProvider client={client}>
+          <RootComponent />
+        </ApolloProvider>
+      </NavigationContainer>
     </ThemeProvider>
   </SafeAreaProvider>
 );
